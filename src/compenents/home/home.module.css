@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@100;200;300;400;500;600;800&display=swap');
+
+.main {
+  /* position: relative; */
+  height: 100vh;
+  /* margin-top: -100px; */
+}
+
+
+.main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../../public/heroimg.png");
+  background-size: cover;
+  z-index: -1;
+}
+
+.main .titleOne {
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.titleOneSpan {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: 3px;
+}
+
+.main .titleTwo {
+  font-weight: 600;
+  font-size: 56px;
+  max-width: 863px;
+  width: 100%;
+  height: 128px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #ffffff;
+  font-family: "Sen", sans-serif;
+}
+
+.mainTitle {
+  margin-top: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.span {
+  color: #ffd050;
+}
+
+.mainTitleLong {
+  margin-top: 20px;
+  max-width: 599px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+.btn {
+  cursor: pointer;
+  margin-top: 60px;
+  border: none;
+  max-width: 204px;
+  width: 100%;
+  height: 55px;
+  background-color: #ffd050;
+  color: #232536;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Sen";
+  transition: 0.1s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 0.5;
+}
+
+.hero__p {
+  font-family: "Sen";
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.heroCard {
+  max-width: inherit;
+  gap: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.heroCard__item {
+  max-width: 405px;
+  width: 100%;
+  height: auto;
+}
+
+.heroCardImg {
+  max-width: 405px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+/* .heroCardImg:focus {
+  border: 2px rgb(254, 167, 5);
+
+} */
+
+.heroP {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #4c4c4c;
+}
+
+.heroCardSpan {
+  color: #592ea9;
+}
+
+.heroCardTitle {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: "Sen";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -1px;
+  text-align: left;
+}
+
+.heroCardP {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #232536;
+}
+
+.hr {
+  color: #6d6e76;
+  margin-bottom: 200px;
+  opacity: 0.2;
+  margin-top: 70px;
+}
+
+.heroTitle {
+  text-align: center;
+  font-family: "Sen", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+  margin-top: -80px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.cardItem {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #cdcdcd;
+  max-width: 270px;
+  width: 90%;
+  height: 221px;
+  padding: 20px;
+}
+
+.cardItem:hover {
+  transition: 0.3s;
+  background: #ffd050;
+}
+
+.cardTitle {
+  font-family: "Sen";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+.text {
+  margin-top: 8px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+.cardImg {
+  background: white;
+  border-radius: 10px;
+}
